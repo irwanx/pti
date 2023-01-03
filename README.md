@@ -37,7 +37,9 @@ Solusi data per objek data, yang dikenal dengan atribut tujuan, merupakan salah 
 
 Asumsikan atribut “Weather” memiliki tiga kemungkinan nilai: cerah, bersalju, dan hujan
 
-[FOTO]
+<p align="left"> 
+  <img src="https://github.com/irwanx/pti/blob/master/3-1.jpg" height="500"/> 
+  </p>
 
 Berdasarkan informasi pada tabel di atas, akan dibuat tabel keputusan untuk memutuskan bermain tenis berdasarkan ramalan cuaca, suhu, kelembaban, dan kondisi angin.
 
@@ -48,8 +50,11 @@ Berdasarkan informasi pada tabel di atas, akan dibuat tabel keputusan untuk memu
 ```
 
 * Perhitungan Gain
-```Gain(S,A)=Entrophy(S)-
-```
+
+<p align="left"> 
+  <img src="https://github.com/irwanx/pti/blob/master/5.jpg" height="100"/> 
+  </p>
+
 Keterangan: 
 ```S: Himpunan
 A: Atribut
@@ -59,7 +64,9 @@ n: Jumlah Partisi Atribut A
 ```
 * Menghitung Nilai Entropy
 
-[rumus]
+<p align="left"> 
+  <img src="https://github.com/irwanx/pti/blob/master/6.jpg" height="100"/> 
+  </p>
 
 Keterangan:
 ```S : himpunan kasus
@@ -76,9 +83,33 @@ Menggunakan atribut “Outlook”, “Temperature”, “Humidity”, dan “Win
 Hitung perolehan untuk setiap atribut secara terpisah.
 
 #### Perhitungan
-[foto]
+
+<p align="left"> 
+  <img src="https://github.com/irwanx/pti/blob/master/7.jpg" height="500"/> 
+  </p>
 
 #### Perhitungan total entropy
-[Foto]
+
+<p align="left"> 
+  <img src="https://github.com/irwanx/pti/blob/master/8.png" height="300"/> 
+  </p>
 
 #### Menghitung gain pada baris Outlook
+
+<p align="left"> 
+  <img src="https://github.com/irwanx/pti/blob/master/9.jpg" height="300"/> 
+  </p>
+
+Hitung penguatan untuk suhu, kelembapan, dan kondisi berangin.
+
+Kelembaban -> 0,37 ditemukan sebagai atribut dengan Gain tertinggi, seperti yang ditunjukkan pada tabel.
+
+Kelembaban kemudian menjadi simpul akar.
+
+Kelembaban dibagi menjadi dua kategori: “Tinggi” dan “Normal”.
+
+Kelembaban -> “Alami” telah mengategorikan kasus ke dalam salah satu dari dua kategori: ya atau tidak.
+
+Untuk humidity -> “High” msh perlu dilakukan perhitungn lagi (karena masih terdapat “yes” dan “no”)
+
+Pohon keputusan Node 1
