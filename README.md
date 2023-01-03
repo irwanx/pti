@@ -1,6 +1,12 @@
 # Pengantar Teknologi Informasi
 ## Algoritma Desicions Tree
-
+### Kelompok 2
+Nama(NIM)
+```
+1. Irwanto(2233079)
+2. Dian Setyo Budi(2233085)
+3. Egi Pangestu(2233086)
+```
 ### Desicion Tree Data Mining Algoritm
 
 * Desicion Tree merupakan salah satu cara data processing dalam memprediksi masa depan dengan cara membangun klasifikasi atau regresi model dalam bentuk struktur pohon. Hal tersebut dilakukan dengan cara memecah terus ke dalam himpunan bagian yang lebih kecil lalu pada saat itu juga sebuah pohon keputusan secara bertahap dikembangkan. Hasil akhir dari proses tersebut adalah pohon dengan node keputusan dan node daun. Sebuah node keputusan (misalnya, Cuaca/ Outlook) memiliki dua atau lebih cabang (misalnya, Panas, Berawan dan Hujan).
