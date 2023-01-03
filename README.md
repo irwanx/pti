@@ -37,3 +37,48 @@ Solusi data per objek data, yang dikenal dengan atribut tujuan, merupakan salah 
 
 Asumsikan atribut “Weather” memiliki tiga kemungkinan nilai: cerah, bersalju, dan hujan
 
+[FOTO]
+
+Berdasarkan informasi pada tabel di atas, akan dibuat tabel keputusan untuk memutuskan bermain tenis berdasarkan ramalan cuaca, suhu, kelembaban, dan kondisi angin.
+
+* Algoritma secara umum:
+```-Buat Cabang untuk setiap nilai -Pilih atribut sebagai root
+-Ulangi prosedur untuk setiap cabang sampai semua kasus di cabang memiliki kelas yang sama.
+-Memilih atribut berdasarkan nilai “gain” tertinggi dari atribut-atribut yang ada.
+```
+
+* Perhitungan Gain
+```Gain(S,A)=Entrophy(S)-
+```
+Keterangan: 
+```S: Himpunan
+A: Atribut
+n: Jumlah Partisi Atribut A
+|Si|: Jumlah Kasus Pada Partisi ke-i
+|S|: Jumlah Kasus Dalam S
+```
+* Menghitung Nilai Entropy
+
+[rumus]
+
+Keterangan:
+```S : himpunan kasus
+A : fitur
+n : jumlah partisi S
+pi : proporsi dari Si terhadap S
+```
+#### Perincian algoritme (langkah 1)
+
+Hitung jumlah total kasus dan jumlah keputusan “Ya” atau “Tidak”.
+
+Menggunakan atribut “Outlook”, “Temperature”, “Humidity”, dan “Windy”, ukur entropi semua instance yang terbagi.
+
+Hitung perolehan untuk setiap atribut secara terpisah.
+
+#### Perhitungan
+[foto]
+
+#### Perhitungan total entropy
+[Foto]
+
+#### Menghitung gain pada baris Outlook
