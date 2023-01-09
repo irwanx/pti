@@ -7,6 +7,10 @@ Nama(NIM)
 2. Dian Setyo Budi(2233085)
 3. Egi Pangestu(2233086)
 ```
+<p align="left">
+<a href="https://visitor-badge.glitch.me/badge?page_id=irwanx/pti"><img title="Viesitor" src="https://visitor-badge.glitch.me/badge?page_id=irwanx/pti"></a>
+</p>
+
 ### Desicion Tree Data Mining Algoritm
 
 * Desicion Tree merupakan salah satu cara data processing dalam memprediksi masa depan dengan cara membangun klasifikasi atau regresi model dalam bentuk struktur pohon. Hal tersebut dilakukan dengan cara memecah terus ke dalam himpunan bagian yang lebih kecil lalu pada saat itu juga sebuah pohon keputusan secara bertahap dikembangkan. Hasil akhir dari proses tersebut adalah pohon dengan node keputusan dan node daun. Sebuah node keputusan (misalnya, Cuaca/ Outlook) memiliki dua atau lebih cabang (misalnya, Panas, Berawan dan Hujan).
@@ -43,9 +47,22 @@ Solusi data per objek data, yang dikenal dengan atribut tujuan, merupakan salah 
 
 Asumsikan atribut “Weather” memiliki tiga kemungkinan nilai: cerah, bersalju, dan hujan
 
-<p align="left"> 
-  <img src="https://github.com/irwanx/pti/blob/master/3-1.jpg" height="500"/> 
-  </p>
+No | Outlook | Temperature | Humidity | Windy | Play |
+-------|-------|-------|-------|-------|-------| 
+1 | Sunny | Hot | High | False | No |
+2 | Sunny | Hot | High | True | No |
+3 | Cloudy | Hot | High | False | Yes |
+4 | Rainy | Mid | High | False | Yes |
+5 | Rainy | Cool | Normal | False | Yes |
+6 | Rainy | Cool | Normal | True | Yes |
+7 | Cloudy | Cool | Normal | True | Yes |
+8 | Sunny | Mid | High | False | No |
+9 | Sunny | Cool | Normal | False | Yes |
+10 | Rainy | Mid | Normal | False | Yes |
+11 | Sunny | Mid | Normal | True | Yes |
+12 | Cloudy | Mid | High | True | Yes |
+13 | Cloudy | Hot | Normal | False | Yes |
+14 | Rainy | Mid | High | True | No |
 
 Berdasarkan informasi pada tabel di atas, akan dibuat tabel keputusan untuk memutuskan bermain tenis berdasarkan ramalan cuaca, suhu, kelembaban, dan kondisi angin.
 
